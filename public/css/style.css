@@ -1,0 +1,592 @@
+#navbarturun {
+   z-index: 1000;
+   margin-bottom: 0;
+   background-color: #ffffffdf;
+   z-index: 1000;
+   background-color: #ffffff55;
+   width: 100%;
+   position: fixed;
+   top: -100px;
+   transition: top 0.5s;
+}
+
+.carousel-inner img {
+   width: 100%;
+   height: 600px;
+}
+
+@media (max-width: 776px) {
+
+   /* 766 */
+   .carousel-inner img {
+      height: 250px;
+   }
+
+   .logoku {
+      height: 75px;
+   }
+
+   .ini img {
+      width: 280px;
+      height: 200px;
+   }
+
+}
+
+#anikiri {
+   animation: kiri 2.5s;
+}
+
+@keyframes kiri {
+   from {
+      opacity: 0;
+      left: -300px;
+   }
+
+   to {
+      opacity: 1;
+      left: 0px;
+   }
+}
+
+#anikanan {
+   animation: kanan 2.5s;
+}
+
+@keyframes kanan {
+   from {
+      opacity: 0;
+      right: -600px;
+   }
+
+   to {
+      opacity: 1;
+      right: 0px;
+   }
+}
+
+.baru {
+   text-align: center;
+   padding: 100px 25px;
+   width: 500px;
+   height: 300px;
+}
+
+.kosong {
+   padding: 100px 25px;
+   /* margin: 10px; */
+   text-align: center;
+   width: 100%;
+   height: 100%;
+}
+
+.gambarkosongimg {
+   width: 350px;
+   height: 280px;
+   border: 5px solid #3838ee;
+   border-radius: 10px;
+}
+
+.wkwk {
+   width: 100%;
+   height: 100px;
+   background-color: deeppink;
+   border-top: 1px solid darkorchid;
+   transform: scale(0);
+   transition: all 400ms;
+}
+
+.in-view {
+   background-color: indigo;
+   transform: scale(1);
+}
+
+.gelombang {
+   opacity: 1;
+   background-color: #3838ee;
+   /* height:23px; */
+}
+
+.inigelombang {
+   margin-top: 20px;
+   overflow: hidden;
+   /* position: absolute; */
+   left: 0;
+   width: 100%;
+   line-height: 0;
+   direction: ltr;
+}
+
+.gelombang svg {
+   fill: white;
+   width: calc(270% + 1.3px);
+   height: 23px;
+}
+
+.prodkami {
+   background-color: #3838ee;
+}
+
+.prodkami3col {
+   padding-bottom: 35px;
+}
+
+.prodkami3col img {
+   padding-top: 20px;
+   padding-bottom: 20px;
+}
+
+.news2 {
+   width: auto;
+   height: auto;
+   background-color: #ffffff;
+   padding: 10px;
+}
+
+.yeuh {
+   position: absolute;
+   margin: 15px;
+   right: 0;
+   bottom: 0;
+   left: 0;
+   padding: 15px;
+   background: #ffffffaa;
+   background: rgba(255, 255, 255, 0.75);
+}
+
+.hijau {
+   margin: 0;
+   padding-bottom: 20;
+   background-color: forestgreen;
+   height: 8px;
+   width: cover;
+}
+
+.katalog {
+   position: relative;
+   width: 50%;
+}
+
+.katalogimg {
+   margin-top: 10px;
+   margin-bottom: 5px;
+   display: block;
+   width: 100%;
+   height: 240px;
+}
+
+.overlay {
+   position: absolute;
+   bottom: 0;
+   left: 0;
+   right: 0;
+   background-color: #F69D3A88;
+   overflow: hidden;
+   width: 100%;
+   height: 100%;
+   -webkit-transform: scale(0);
+   -ms-transform: scale(0);
+   transform: scale(0);
+   -webkit-transition: .3s ease;
+   transition: .3s ease;
+}
+
+.katalog:hover .overlay {
+   -webkit-transform: scale(1);
+   -ms-transform: scale(1);
+   transform: scale(1);
+}
+
+.katalogtext {
+   color: white;
+   font-size: 20px;
+   position: absolute;
+   top: 50%;
+   left: 50%;
+   -webkit-transform: translate(-50%, -50%);
+   -ms-transform: translate(-50%, -50%);
+   transform: translate(-50%, -50%);
+   text-align: center;
+}
+
+.puter {
+   margin-top: 20px;
+   padding-bottom: 0px;
+   background-color: #3838ee;
+}
+
+.hrputer {
+   margin: 0;
+   margin-bottom: 10px;
+   /* padding-bottom: 20; */
+   background-color: #f1f1f1;
+   height: 3px;
+   width: 50px;
+}
+
+/* ====================================ICON=============================== */
+#services {
+   padding-left: 10px;
+   text-align: center;
+   transform: translatez(0);
+}
+
+#services h2 {
+   margin: 80px 0px 40px;
+   color: #fff;
+   font-size: 2.4em;
+   text-transform: uppercase;
+   text-align: center;
+}
+
+#services li {
+   left: 10px;
+   width: 30px;
+   height: 30px;
+   display: inline-block;
+   /* margin: 20px; */
+   list-style: none;
+}
+
+#services li div {
+   /* padding: 10px; */
+   width: 30px;
+   height: 30px;
+   color: #74d4b3;
+   font-size: 1em;
+   text-align: center;
+   line-height: 30px;
+   background-color: #3838ee;
+   transition: all 0.5s ease;
+}
+
+#services li a {
+   font-size: 15px;
+   padding: 10px;
+   color: #ffffff;
+}
+
+#services li a:hover {
+   color: #3838ee;
+}
+
+#services li div:hover {
+   transform: rotate(360deg);
+   border-radius: 100px;
+   background-color: #ffffff;
+}
+
+#services li span {
+   width: 30px;
+   height: 20px;
+   display: block;
+   padding: 15px 0px;
+   color: #fff;
+   text-transform: uppercase;
+   font-size: 1.2em;
+   text-align: center;
+}
+
+/* ------------------------------------------------------------------------- */
+.footer {
+   margin-top: 10px;
+   width: 100%;
+   height: 30px;
+   background-color: black;
+}
+
+.serif {
+   font-family: "Times New Roman", Times, serif;
+   /* font-weight: 500; */
+}
+
+.imgtentangkami {
+   padding-top: 0rem;
+}
+
+@media (min-width: 776px) {
+   .logoku {
+      padding-right: 15px;
+      height: 50px;
+   }
+
+   .imgtentangkami {
+      padding-top: 5rem;
+   }
+
+}
+
+.imgmesin {
+   width: 400px;
+   height: 350px;
+}
+
+/* ================================ CUSTOMER ================================*/
+.dropbtn {
+   background-color: #4CAF5000;
+   color: black;
+   padding: 5px;
+   font-size: 20px;
+   border: none;
+}
+
+.dropdown {
+   position: relative;
+   display: inline-block;
+}
+
+.dropdown-content {
+   right: 30%;
+   display: none;
+   position: absolute;
+   background-color: #ffffff;
+   min-width: 50px;
+   box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+   z-index: 1;
+}
+
+.dropdown-content a {
+   color: black;
+   padding: 12px 16px;
+   text-decoration: none;
+   display: block;
+}
+
+.imgcustomer {
+   /* color: #ffffff00; */
+   display: inline-block;
+   background-size: contain;
+   background-image: url("../img/logo_neo.png");
+   background-color: #fff;
+   background-position: center;
+   background-repeat: no-repeat;
+}
+
+.tiga {
+   font-weight: 500;
+   padding-top: 0;
+}
+
+.tiga div {
+   padding: 0.2rem;
+}
+
+.aw {
+   min-height: 250px;
+   min-width: 250px;
+}
+
+.dropdown:hover {
+   background-color: #3838ee;
+   color: #fff;
+}
+
+.dropdown:hover.customer1~.col-md-12 .imgcustomer {
+   display: inline-block;
+   background-image: url("https://xccleanindo.com/static/img/logo.jpg");
+}
+
+.dropdown:hover.customer2~.col-md-12 .imgcustomer {
+   display: inline-block;
+   background-image: url("http://jadimedika.com/wp-content/uploads/2020/02/JAM-LOGO-Transparant.png");
+}
+
+.dropdown:hover.customer3~.col-md-12 .imgcustomer {
+   display: inline-block;
+   background-image: url("https://www.kino.co.id/assets/img/kino.png");
+}
+
+.dropdown:hover.customer4~.col-md-12 .imgcustomer {
+   display: inline-block;
+   background-image: url("http://www.ikapharmindo.com/wp-content/themes/chris-bootstrap/images/logo.png");
+}
+
+.dropdown:hover.customer5~.col-md-12 .imgcustomer {
+   display: inline-block;
+   background-image: url("https://www.akashainternational.com/wp-content/uploads/2018/07/cropped-logo-baru1.png");
+}
+
+.dropdown:hover.customer6~.col-md-12 .imgcustomer {
+   display: inline-block;
+   background-image: url("https://makarizo.com/wp-content/uploads/2020/07/logo-makarizo-white.png");
+   background-color: rgb(0, 0, 0);
+   filter: invert(100%)
+}
+
+.dropdown:hover.customer7~.col-md-12 .imgcustomer {
+   display: inline-block;
+   background-image: url("https://vci.co.id/wp-content/uploads/2020/07/Logo-vci.png");
+}
+
+/* ================================ PRODUK ================================*/
+.et-hero-tabs {
+   background-size: 100vw 100vh;
+   background-repeat: no-repeat;
+   background-image: url("../img/BERKAH\ KARYA\ INTERNASIONAL\ -\ Aneka\ Jenis\ Produk.png");
+}
+
+.et-hero-tabs,
+.et-slide {
+   display: -webkit-box;
+   display: flex;
+   -webkit-box-orient: vertical;
+   -webkit-box-direction: normal;
+   flex-direction: column;
+   -webkit-box-pack: center;
+   justify-content: center;
+   -webkit-box-align: center;
+   align-items: center;
+   height: 70vh;
+   position: relative;
+   /* background: #eee; */
+   text-align: center;
+   padding: 0 2em;
+}
+
+.et-hero-tabs h1,
+.et-slide h1 {
+   font-size: 2rem;
+   margin: 0;
+   letter-spacing: 1rem;
+}
+
+.et-hero-tabs h3,
+.et-slide h3 {
+   font-size: 1rem;
+   letter-spacing: 0.3rem;
+   opacity: 0.6;
+}
+
+.et-hero-tabs-container {
+   display: -webkit-box;
+   display: flex;
+   -webkit-box-orient: horizontal;
+   -webkit-box-direction: normal;
+   flex-direction: row;
+   position: -webkit-sticky;
+   position: sticky;
+   top: 13rem;
+   /* bottom: 0; */
+   width: 100%;
+   height: 70px;
+   box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+   background: #fff;
+   z-index: 10;
+}
+
+.et-hero-tabs-container--top {
+   position: fixed;
+   top: 13rem;
+}
+
+.et-hero-tab {
+   display: -webkit-box;
+   display: flex;
+   -webkit-box-pack: center;
+   justify-content: center;
+   -webkit-box-align: center;
+   align-items: center;
+   -webkit-box-flex: 1;
+   flex: 1;
+   color: #000;
+   letter-spacing: 0.1rem;
+   -webkit-transition: all 0.5s ease;
+   transition: all 0.5s ease;
+   font-size: 0.8rem;
+}
+
+.et-hero-tab:hover {
+   color: white;
+   background: rgba(102, 177, 241, 0.8);
+   -webkit-transition: all 0.5s ease;
+   transition: all 0.5s ease;
+}
+
+.et-hero-tab.active {
+   color: yellow;
+   background: rgba(255, 0, 255, 0.8);
+}
+
+.et-hero-tab-slider {
+   position: absolute;
+   bottom: 0;
+   width: 0;
+   height: 6px;
+   background: #66B1F1;
+   -webkit-transition: left 0.3s ease;
+   transition: left 0.3s ease;
+}
+
+.kotak {
+   width: 350px;
+   height: 350px;
+}
+
+@media (min-width: 800px) {
+
+   .et-hero-tabs h1,
+   .et-slide h1 {
+      font-size: 3rem;
+   }
+
+   .et-hero-tabs h3,
+   .et-slide h3 {
+      font-size: 1rem;
+   }
+
+   .et-hero-tab {
+      font-size: 1rem;
+   }
+
+   .et-hero-tabs-container {
+      position: sticky;
+      top: 5rem;
+   }
+
+   .et-hero-tabs,
+   .et-slide {
+      height: 88vh;
+   }
+
+   .kotak {
+      width: 720px;
+   }
+}
+
+img.listproduk {
+   height: 300px;
+}
+
+.judul-produk {
+   margin: 35% 0 0;
+}
+
+.collapse:not(.show) {
+   display: none;
+}
+
+.collapsing {
+   position: relative;
+   height: 0;
+   overflow: hidden;
+   transition: height 0.35s ease;
+}
+
+@media (prefers-reduced-motion: reduce) {
+   .collapsing {
+      transition: none;
+   }
+}
+
+.gambarprodukdetil {
+   height: 250px;
+}
+
+.coba {
+   height: 2000px;
+}
+
+#karir .jumbotron {
+   background-color: #fff;
+   padding: 6rem 1rem;
+}
